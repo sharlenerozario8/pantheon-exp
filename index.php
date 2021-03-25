@@ -33,6 +33,12 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 <body>
 	<div class="wrapper">
 		<form action="" method="POST" class="form">
+			
+			<div class="row">
+				<div class="input-group">
+					<h1>Your Pantheon Experience</h1>
+				</div>
+			</div>
 			<div class="row">
 				<div class="input-group">
 					<label for="name">Name</label>
@@ -48,6 +54,11 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 			</div>
 		</form>
 		<div class="prev-posts">
+				<div class="input-group">
+					<h1>See what others have to say</h1>
+					<br>
+				</div>
+			
 			<?php 
 			
 			$sql = "SELECT * FROM exp";
